@@ -8,7 +8,7 @@ The project demonstrates the integration of computer vision, real-time image pro
 
 ## MATLAB Application
   <p align="center">
-    <img src="docs/app_design" alt="Application Design" width="40%">
+    <img src="docs/app_design.jpg" alt="Application Design" width="40%">
   </p>
 A custom MATLAB App Designer application was developed to monitor and control the vision-based positioning system. The interface integrates computer vision, serial communication, PI control, and real-time data visualization, allowing users to set the desired angle, monitor the live camera feed, tune controller parameters, and evaluate the system's performance through live measurements and response plots.
 
