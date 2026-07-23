@@ -7,7 +7,9 @@ The project demonstrates the integration of computer vision, real-time image pro
 
 
 ## MATLAB Application
-
+  <p align="center">
+    <img src="docs/line_following_robot_electrical.png" alt="Electrical System" width="40%">
+  </p>
 A custom MATLAB App Designer application was developed to monitor and control the vision-based positioning system. The interface integrates computer vision, serial communication, PI control, and real-time data visualization, allowing users to set the desired angle, monitor the live camera feed, tune controller parameters, and evaluate the system's performance through live measurements and response plots.
 
 #### Application Components
@@ -61,6 +63,20 @@ This visualization allows the user to evaluate important control characteristics
 - Steady-state error
 - Response smoothness
 - Position convergence
+
+
+
+
+
+
+
+## Demonstration Video
+
+<p align="center">
+  <img src="docs/line_following_robot.gif" alt="Line Following Robot Demo" width="15%">
+</p>
+
+
 
 
 
