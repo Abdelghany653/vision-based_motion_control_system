@@ -17,13 +17,13 @@ A custom MATLAB App Designer application was developed to monitor and control th
 The control panel provides the main interaction with the system.
 
 It includes:
-- Serial Port Selection to choose the communication port.
-- Connect Button to establish serial communication with the microcontroller.
-- Desired Angle Input for specifying the target angular position.
-- Start Button to begin the control process.
-- Stop Button to terminate the control loop safely.
-- Save Data Button to store experimental data for later analysis.
-- HSV Button to open the HSV calibration tool used for color segmentation.
+- **Serial Port Selection** to choose the communication port.
+- **Connect Button** to establish serial communication with the microcontroller.
+- **Desired Angle** Input for specifying the target angular position.
+- **Start Button** to begin the control process.
+- **Stop Button** to terminate the control loop safely.
+- **Save Data Button** to store experimental data for later analysis.
+- **HSV Button** to open the HSV calibration tool used for color segmentation.
 
 ##### 2. Live Annotated Camera View
 The live camera window continuously captures images of the rotating disk and processes them in real time.
@@ -42,10 +42,10 @@ These values are updated continuously throughout system operation.
 ##### 4. PI Controller Parameters
 The application allows online adjustment of the PI controller gains without modifying the program.
 The user can configure:
-- Proportional Gain (Kp) – Determines the controller's response to the current position error.
-- Integral Gain (Ki) – Eliminates steady-state error by accumulating past errors.
-- Derivative Gain (Kd) – Reserved for PID control and set to zero in the current implementation.
-- Tolerance – Defines the acceptable angular error for considering the desired position reached.
+- **Proportional Gain (Kp)** –> Determines the controller's response to the current position error.
+- **Integral Gain (Ki)** –> Eliminates steady-state error by accumulating past errors.
+- **Derivative Gain (Kd)** –> Reserved for PID control and set to zero in the current implementation.
+- **Tolerance** –> Defines the acceptable angular error for considering the desired position reached.
 This functionality simplifies controller tuning and enables rapid performance optimization.
 
 ##### 5. HSV Calibration Panel
@@ -55,8 +55,8 @@ Separate HSV ranges are defined for each colored marker, allowing reliable objec
 ##### 6. Desired vs Actual Position Plot
 The lower panel displays the system response in real time.
 The graph compares:
-- Desired Position (red dashed line)
-- Actual Measured Position (blue solid line)
+- **Desired Position** (red dashed line)
+- **Actual Measured Position** (blue solid line)
 This visualization allows the user to evaluate important control characteristics such as:
 - Rise time
 - Tracking accuracy
